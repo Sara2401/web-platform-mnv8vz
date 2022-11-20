@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Регистрационная форма</a>
+      
+    </nav>
+    <main>
+      <h1>Регистрационная форма</h1>
+
+
+
+    </main> 
+
+    <h2>Login Form</h2>
+    <form id="Login-Form" method="GET">
+    <input type="text" name="username">
+    </form>
+    <form>
+    <fieldset>
+        <legend>User Info</legend>
+   <label for="Firstname"> <input type="text" name="username" id="Firstname">Enter your first name</label>
+   <label for="lastname"> <input type="text" id="lastname">Enter your last name</label>
+   <label for="password"> <input type="password" id="password" pattern="">Enter your password</label>
+</fieldset>
+<fieldset>
+    <legend>Gender</legend>
+<label for="male"><input type="radio" id="male" name="gender">Male</label>
+<label for="Female"><input type="radio" id="female" name="gender">Female</label>
+ 
+</fieldset>
+<fieldset>
+    <legend>City</legend>
+    <select name="City" id="">
+        <option value="Almaty">Almaty</option>
+        <option value="Astana">Astana</option>
+        <option value="Taraz">Taraz</option>
+        <option value="Shymkent">Shymkent</option>
+    </select>
+</fieldset>
+<fieldset>
+  <legend>Attach file</legend>
+<input type="file" multiple>
+
+<button type="submit">submit</button>
+</fieldset>
+<fieldset>
+  <legend>Your information</legend>
+<input type="text" inputmode="numeric" placeholder="numeric value"/>
+<input type="email" inputmode="email" placeholder="email value">
+<input type="tel" inputmode="tel" placeholder="tel value">
+<input type="url" inputmode="url" placeholder="url value">
+<input type="search" inputmode="search" placeholder="search value">
+<input type="date" inputmode="date" placeholder="date value">
+
+
+</fieldset>
+
+<fieldset>
+  <legend>Choose something</legend>
+<ol type="1"> 
+<li>first <input type="checkbox" checked></li>
+<li>second <input type="checkbox" checked></li>
+<li>third <input type="checkbox" checked></li>
+<li>fourth <input type="checkbox" checked></li>
+<li>fifth <input type="checkbox" checked></li>
+</ol>
+</fieldset>
+
+
+</form>
+<p>please press </p>
+<a href="/page2.html">Зарегистрироваться</a>
+
+
+
+  </body>
+</html>
